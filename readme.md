@@ -10,4 +10,4 @@
 
 > 折腾工具而不干活就是感觉很爽
 
-- [VSCode 因为插件丰富、功能强大被大家喜欢，真是令人烦恼啊](https://chuenwei0129.github.io/blog/vscode/The%20powerful%20VSCode)
+- [VSCode 因为插件丰富、功能强大被大家喜欢，真是令人烦恼啊](https://chuenwei0129.github.io/blog/vscode/my-vscode-config.md)
