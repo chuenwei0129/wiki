@@ -1,4 +1,6 @@
-# 通过 Github Pages 发布笔记
+# 通过 Github Pages 发布 Foam 笔记
+
+> 笔记库基于 [foam-template-gatsby-kb](https://github.com/hikerpig/foam-template-gatsby-kb) 模版创建，有关更多信息，请查看其 Github 仓库。
 
 ## 配置
 
@@ -83,5 +85,3 @@ module.exports = {
 操作工作流配置位于 `.github/workflows/Deploy.yml`。
 
 构建完成后，可以访问站点 `https://{yourname}.github.io/{your-repo-name}/`，例如 <https://chuenwei0129.github.io/blog>
-
-有关更多信息，请查看 [foam-template-gatsby-kb](https://github.com/hikerpig/foam-template-gatsby-kb) 模版页面。
