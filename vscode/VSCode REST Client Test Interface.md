@@ -1,5 +1,7 @@
 # VSCode REST Client 插件测试接口
 
+> 这条笔记创建于: 2022 年 10 月 24 日，星期一，20: 36。
+
 ```sh
 ### 获取 users 数据
 GET http://127.0.0.1:3000/users

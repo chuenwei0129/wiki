@@ -35,7 +35,7 @@
     "prefix": "/time",
     "description": "在此处插入一条时间戳",
     "body": [
-      "这条笔记${1|创建,更新|}于: $CURRENT_YEAR 年 $CURRENT_MONTH 月 $CURRENT_DATE 日，$CURRENT_DAY_NAME，$CURRENT_HOUR: $CURRENT_MINUTE。"
+      "> 这条笔记${1|创建,更新|}于: $CURRENT_YEAR 年 $CURRENT_MONTH 月 $CURRENT_DATE 日，$CURRENT_DAY_NAME，$CURRENT_HOUR: $CURRENT_MINUTE。"
     ]
   },
 

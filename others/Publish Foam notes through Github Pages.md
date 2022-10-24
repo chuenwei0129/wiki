@@ -1,8 +1,10 @@
 # 通过 Github Pages 发布 Foam 笔记
 
-> 笔记库基于 [foam-template-gatsby-kb](https://github.com/hikerpig/foam-template-gatsby-kb) 模版创建，有关更多信息，请查看其 Github 仓库。
+> 这条笔记创建于: 2022 年 10 月 24 日，星期一，20: 38。
 
 ## 配置
+
+> 笔记库基于 [foam-template-gatsby-kb](https://github.com/hikerpig/foam-template-gatsby-kb) 模版创建，有关更多信息，请查看其 Github 仓库。
 
 配置模版中 [_layouts/gatsby-config.js](https://github.com/hikerpig/foam-template-gatsby-kb/blob/master/_layouts/gatsby-config.js) 文件。
 

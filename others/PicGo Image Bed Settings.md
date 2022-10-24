@@ -1,6 +1,6 @@
 # PicGo 图床设置
 
-> **更多功能设置：** <https://picgo.github.io/PicGo-Doc/>
+> 这条笔记创建于: 2022 年 10 月 24 日，星期一，20: 38。
 
 ## Github 仓库设置
 
@@ -45,6 +45,8 @@
 至此配置完毕，已经可以使用了。当你上传的时候，你会发现你的仓库里也会增加新的图片了。
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/picgo/success.png)
+
+**更多功能设置：** <https://picgo.github.io/PicGo-Doc/>
 
 ## vs-picgo 配置
 

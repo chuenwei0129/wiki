@@ -1,3 +1,10 @@
+---
+title: DaiLyNote-${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}
+date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}
+type: 生活
+tags: 生活记录
+---
+
 # 每日记录：${CURRENT_YEAR} 年 ${CURRENT_MONTH} 月 ${CURRENT_DATE} 日
 
 ## 今天的待办事项
