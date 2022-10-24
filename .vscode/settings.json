@@ -4,6 +4,7 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "foam.edit.linkReferenceDefinitions": "off",
+  "foam.openDailyNote.onStartup": true, // 启动项目时自动打开 Daily Note
   "foam.openDailyNote.directory": "journal",
   "[markdown]": {
     "editor.quickSuggestions": {

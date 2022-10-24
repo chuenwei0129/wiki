@@ -1,0 +1,41 @@
+{
+  // Place your blog 工作区 snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "Metadata": {
+    "scope": "markdown",
+    "prefix": "/meta",
+    "description": "创建这条笔记的元数据",
+    "body": [
+      "---",
+      "title: $1",
+      "date: $CURRENT_YEAR 年 $CURRENT_MONTH 月 $CURRENT_DATE 日",
+      "type: ${2|生活,TODO,思考,知识|}",
+      "tags: $3",
+      "---"
+    ]
+  },
+
+  "Time Stamp": {
+    "scope": "markdown",
+    "prefix": "/time",
+    "description": "在此处插入一条时间戳",
+    "body": [
+      "这条笔记${1|创建,更新|}于: $CURRENT_YEAR 年 $CURRENT_MONTH 月 $CURRENT_DATE 日，$CURRENT_DAY_NAME，$CURRENT_HOUR: $CURRENT_MINUTE。"
+    ]
+  }
+}
