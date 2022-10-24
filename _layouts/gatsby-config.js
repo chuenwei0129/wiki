@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-kb`,
       options: {
-        rootNote: '/readme',
+        rootNote: '/README', // the root note of your knowledge base
         contentPath: `${__dirname}/..`,
         ignore: [
           '**/_layouts/**',
@@ -23,6 +23,7 @@ module.exports = {
           '**/.github/**',
           '**/.vscode/**',
           '**/.cache/**',
+          '**/.foam/**',
         ],
         // this is an option for extending `gatsby-plugin-mdx` options inside `gatsby-theme-kb`,
         getPluginMdx(defaultPluginMdx) {

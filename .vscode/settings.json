@@ -4,6 +4,7 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "foam.edit.linkReferenceDefinitions": "withExtensions",
+  "foam.openDailyNote.directory": "journal",
   "[markdown]": {
     "editor.quickSuggestions": {
       "other": true,
