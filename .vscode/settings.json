@@ -4,7 +4,7 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   // "off": 不会在文章底部生成反向链接，线上 gatsby-theme-kb 会自动开启，可设置为 off，本地开发时可设置为 withExtensions
-  "foam.edit.linkReferenceDefinitions": "withExtensions",
+  "foam.edit.linkReferenceDefinitions": "off",
   "foam.openDailyNote.onStartup": true, // 启动项目时自动打开 Daily Note
   "foam.openDailyNote.directory": "journal",
   "[markdown]": {
