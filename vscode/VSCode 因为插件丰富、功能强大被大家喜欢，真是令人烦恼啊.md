@@ -1,3 +1,10 @@
+---
+title: my-vscode-config
+date: 2022-10-24
+type: 知识
+# tags: 
+---
+
 # VSCode 因为插件丰富、功能强大被大家喜欢，真是令人烦恼啊
 
 > 这条笔记创建于: 2022 年 10 月 24 日，星期一，17: 40。
@@ -38,7 +45,7 @@
 | [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                                                                           | 注释标签                         | [[Todo Tree 扩展配置]]                    |
 | [code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)                                                                     | 快速运行代码                     |                                           |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)                                                  | 拼写检查                         |                                           |
-| [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)                                                                             | REST API                         | [[rest-client]]                           |
+| [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)                                                                             | 测试接口                         | [[VSCode REST Client 插件测试接口]]       |
 | [JSON5 syntax](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5)                                                                          | 支持注释的 JSON                  |                                           |
 | [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)                                                         | 图片预览                         |                                           |
 | [PicGo](https://marketplace.visualstudio.com/items?itemName=Spades.vs-picgo)                                                                                     | 图床工具                         | [[PicGo 图床设置]]                        |
