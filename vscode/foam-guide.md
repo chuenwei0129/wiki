@@ -161,11 +161,11 @@ tags: 生活记录
 
 ### 插入图片?
 
-> PicGo 图床设置：[[picgo-settings]]
+> [[picgo-settings]]
 
 ### 快捷键列表
 
-> 有用的 VSCode 快捷键：[[useful-vscode-shortcuts]]
+> [[useful-vscode-shortcuts]]
 
 ### 从网页捕获内容
 

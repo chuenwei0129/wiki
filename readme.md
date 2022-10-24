@@ -10,4 +10,6 @@
 
 > 折腾工具而不干活就是感觉很爽
 
-- [VSCode 因为插件丰富、功能强大被大家喜欢，真是令人烦恼啊](https://chuenwei0129.github.io/blog/vscode/my-vscode-config)
+- `[VSCode]` [VSCode 因为插件丰富、功能强大被大家喜欢，真是令人烦恼啊](https://chuenwei0129.github.io/blog/vscode/my-vscode-config)
+- `[Git]` 怕遗忘 Git 的我，把相关知识点都记录下来就对了
+- `[Switch]` [关于我破解了 Switch 并且装满了游戏依然吃灰这件事](https://chuenwei0129.github.io/blog/others/switch)

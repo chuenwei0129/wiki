@@ -64,11 +64,11 @@
 
 ## ✔ 使用技巧
 
-- **有用的 VSCode 快捷键：**[[useful-vscode-shortcuts]]
-- **VSCode 内置插件 Emmet：**[[vscode-built-in-plugin-emmet]]
-- **VSCode Remote SSH 配置：**[[vscode-remote-ssh-config]]
-- **VSCode 使用 Snippets 设置代码块：**[[vscode-snippets]]
-- **配置 Git 的默认编辑器为 VSCode：**[[configure-git-default-editor-to-be-vscode]]
+- [[useful-vscode-shortcuts]]
+- [[vscode-built-in-plugin-emmet]]
+- [[vscode-remote-ssh-config]]
+- [[vscode-snippets]]
+- [[configure-git-default-editor-to-be-vscode]]
 
 ## ⚙️ 我的设置
 
