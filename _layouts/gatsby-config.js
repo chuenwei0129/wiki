@@ -4,11 +4,11 @@ const PATH_PREFIX = process.env.PATH_PREFIX
 
 module.exports = {
   // pathPrefix: PATH_PREFIX || `/foam-template-gatsby-kb`, // a. If you are using github pages, this should be the name of your repo
-  pathPrefix: PATH_PREFIX || `/`, // b. If you are using Netlify/Vercel, your can keep it this way
+  pathPrefix: PATH_PREFIX || `/blog`, // b. If you are using Netlify/Vercel, your can keep it this way
   siteMetadata: {
     // some SEO configs using by gatsby-theme-kb
-    title: `Foam`, // Replace it with your site's title
-    author: `Your Name`, // Replace it with your name
+    title: `chuenwei0129の数字花园`, // Replace it with your site's title
+    author: `chuenwei0129`, // Replace it with your name
     description: `My personal knowledge base`, // Replace it with your site's description
   },
   plugins: [
@@ -44,7 +44,8 @@ module.exports = {
 
           // add math support
           defaultPluginMdx.options.remarkPlugins.push(require('remark-math'))
-          if (!defaultPluginMdx.options.rehypePlugins) defaultPluginMdx.options.rehypePlugins = []
+          if (!defaultPluginMdx.options.rehypePlugins)
+            defaultPluginMdx.options.rehypePlugins = []
           defaultPluginMdx.options.rehypePlugins.push(require('rehype-katex'))
           return defaultPluginMdx
         },

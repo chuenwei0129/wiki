@@ -4,7 +4,6 @@
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "foam.edit.linkReferenceDefinitions": "withExtensions",
-  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "[markdown]": {
     "editor.quickSuggestions": {
       "other": true,
@@ -12,17 +11,13 @@
       "strings": false
     }
   },
-  "cSpell.language": "en-GB",
-  "git.enableSmartCommit": true,
-  "git.postCommitCommand": "sync",
-  "spellright.language": [
-    "en"
-  ],
-  "spellright.documentTypes": [
-    "markdown",
-    "plaintext"
-  ],
   "files.exclude": {
     "_site/**": true
-  }
+  },
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync"
+  // "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  // "cSpell.language": "en-GB",
+  // "spellright.language": ["en"],
+  // "spellright.documentTypes": ["markdown", "plaintext"],
 }
