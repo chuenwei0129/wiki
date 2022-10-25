@@ -1,17 +1,6 @@
-# 关于我破解了 Switch 并且装满了游戏依然吃灰这件事<!-- omit in toc -->
+# 关于我破解了 Switch 并且装满了游戏依然吃灰这件事
 
-***👀 TIPS: 二级标题可返回目录***
-
----
-
-> ## 目录
-
-- [SX OS 拥抱大气层](#sx-os-拥抱大气层)
-- [USB 安装游戏](#usb-安装游戏)
-- [离线升降级系统](#离线升降级系统)
-- [小插曲](#小插曲)
-- [模拟器](#模拟器)
-- [白嫖网站](#白嫖网站)
+> 这条笔记创建于: 2022 年 10 月 25 日，星期二，13: 17。
 
 ## SX OS 拥抱大气层
 
@@ -19,9 +8,9 @@
 
 ## USB 安装游戏
 
-Mac 下用 USB 连接 Switch 需要 [Android File Transfer](https://www.android.com/filetransfer/)
+1. Mac 下用 USB 连接 Switch 需要 [Android File Transfer](https://www.android.com/filetransfer/)
 
-[Switch DBI 图文使用教程](https://shipengliang.com/games/switch-dbi-%e5%9b%be%e6%96%87%e4%bd%bf%e7%94%a8%e6%95%99%e7%a8%8b.html)
+2. [Switch DBI 图文使用教程](https://shipengliang.com/games/switch-dbi-%e5%9b%be%e6%96%87%e4%bd%bf%e7%94%a8%e6%95%99%e7%a8%8b.html)
 
 ## 离线升降级系统
 
@@ -65,10 +54,9 @@ The problem is, MacOS is setting an “archive flag” on every sd-card mounted 
 
 > 解决方案来自：[如何优雅地在 macOS 上管理 NS](https://blog.dov.moe/posts/52726/)
 
-## 模拟器
-
-<!-- TODO -->
-
 ## 白嫖网站
 
 - <https://xxxxx520.com/>
+
+<!-- ## 模拟器 -->
+<!-- TODO -->
