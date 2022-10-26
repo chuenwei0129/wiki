@@ -8,6 +8,11 @@
 
 ## 今天学习了什么
 
+<!-- 记单词 -->
+<!-- 30 days of xxx -->
+<!-- 一日一句 -->
+<!-- 一日一歌 -->
+
 > 这条笔记更新于: ${CURRENT_YEAR} 年 ${CURRENT_MONTH_NAME} 月 ${CURRENT_DATE} 日，${CURRENT_DAY_NAME}，${CURRENT_HOUR}: $CURRENT_MINUTE。
 
 - [ ] 今天学习了什么
