@@ -1,8 +1,12 @@
-# Git 配置 SSH
+# Git 配置 SSH 协议
+
+> 这条笔记创建于: 2022 年 10 月 27 日，星期四，21: 04。
 
 虽然 Git 可以工作在 ssh 与 https 两种协议上，但为了安全性，更多时候会选择 ssh。
 
-## 生成一个 ssh-key
+## 操作步骤
+
+### 1. 生成一个 ssh-key
 
 执行命令
 
@@ -21,17 +25,17 @@ authorized_keys config id_rsa id_rsa.pub known_hosts
 
 > id_rsa / id_rsa.pub: 配对的私钥与公钥
 
-## 复制 `id_rsa.pub` 的内容
+### 2. 复制 `id_rsa.pub` 的内容
 
 以 Github 为例，进入 `settings -> SSH and GPG keys` 通过 `cat` 命令查看文件 `id_rsa.pub` 的内容，然后复制过来，点击 `add ssh key`，这一步等于说把你的公钥放到了 Github 上进行托管。
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/terminal/-k3u1fbpfcp.webp)
 
-## 全局配置 Git 的用户名和邮箱
+### 3. 全局配置 Git 的用户名和邮箱
 
 ```sh
-git config --global user.name "xxx"
-git config --global user.email "xxx@xx.com"
+git config --global user.name "chuenwei0129"
+git config --global user.email "chuenwei0129@gmail.com"
 ```
 
 完成以上步骤，就可以愉快 pull 代码开发了。

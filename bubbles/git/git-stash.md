@@ -1,19 +1,19 @@
-# git stash
+# git stash 命令
 
 会有这么一个场景，现在你正在用你的 feature 分支上开发新功能。这时，生产环境上出现了一个 bug 需要紧急修复，但是你这部分代码还没开发完，不想提交，怎么办？这个时候可以用 `git stash` 命令先把工作区已经修改的文件暂存起来，然后切换到 hotfix 分支上进行 bug 的修复，修复完成后，切换回 feature 分支，从堆栈中恢复刚刚保存的内容。
 
 基本命令如下
 
 ```sh
-git stash #把本地的改动暂存起来
+git stash # 把本地的改动暂存起来
 git stash save "message" # 执行存储时，添加备注，方便查找。
 git stash pop # 应用最近一次暂存的修改，并删除暂存的记录
-git stash apply  # 应用某个存储,但不会把存储从存储列表中删除，默认使用第一个存储,即 stash@{0}，如果要使用其他个，git stash apply stash@{$num}
+git stash apply  # 应用某个存储，但不会把存储从存储列表中删除，默认使用第一个存储，即 stash@{0}，如果要使用其他个，git stash apply stash@{$num}
 git stash list # 查看 stash 有哪些存储
 git stash clear # 删除所有缓存的 stash
 ```
 
-例如，我正在开发一个新功能，修改了 1.js 文件里的内容，
+例如，我正在开发一个新功能，修改了 `1.js` 文件里的内容，
 
 还没开发完成，这个时候，我想切换到 hotfix 分支上修复 bug，得暂停下开发切换到 hotfix 分支，但是现在工作区还有内容，此时如果切换分支 Git 会报出下面的错误
 
