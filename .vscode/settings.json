@@ -7,6 +7,8 @@
   "foam.edit.linkReferenceDefinitions": "withExtensions",
   "foam.openDailyNote.onStartup": true, // 启动项目时自动打开 Daily Note
   "foam.openDailyNote.directory": "journal",
+  "foam.graph.titleMaxLength": 20,
+  "foam.files.ignore": [".foam/templates/daily-note.md"],
   "[markdown]": {
     "editor.quickSuggestions": {
       "other": true,

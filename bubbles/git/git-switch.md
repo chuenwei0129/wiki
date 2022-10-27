@@ -6,13 +6,13 @@
 
 **创建并切换到指定分支（ -C 大小写皆可）**：
 
-```sh
+```perl
 git switch -C <new-branch>
 ```
 
 切换到已有分支：
 
-```sh
+```perl
 git switch <branch>
 ```
 
@@ -20,7 +20,7 @@ git switch <branch>
 
 `switch` 的使用方式简单且专一，它无法像 `checkout` 一样对指定提交使用：
 
-```sh
+```perl
 git switch ea4c48a
 ```
 

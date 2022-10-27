@@ -6,7 +6,7 @@
 
 基本命令如下
 
-```sh
+```perl
 git stash # 把本地的改动暂存起来
 git stash save "message" # 执行存储时，添加备注，方便查找。
 git stash pop # 应用最近一次暂存的修改，并删除暂存的记录
@@ -19,7 +19,7 @@ git stash clear # 删除所有缓存的 stash
 
 还没开发完成，这个时候，我想切换到 hotfix 分支上修复 bug，得暂停下开发切换到 hotfix 分支，但是现在工作区还有内容，此时如果切换分支 Git 会报出下面的错误
 
-```sh
+```perl
 error: Your local changes to the following files would be overwritten by checkout:
         1.js
 Please commit your changes or stash them before you switch branches.
@@ -30,7 +30,7 @@ Aborting
 
 上面那句话的意思就是说工作区有文件修改，不能提交，需要先进行 commit 或者 stash 操作，执行 git stash，结果如下
 
-```sh
+```perl
 Saved working directory and index state WIP on stash: 22e561c feat: add 1.js
 ```
 

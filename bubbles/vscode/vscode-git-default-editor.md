@@ -8,18 +8,18 @@ Git 默认编辑器应该是 Vim，世界上最好的编辑器 🐶，不过最�
 
 **第二步**：配置 core.editor 属性
 
-```sh
+```perl
 git config --global core.editor "code --wait"
 ```
 
 执行上面的命令后就可以了。但是每次都是以新建一个 tab 页的方式打开编辑器，如果你希望每次都打开一个新窗口，那么就需要加上 `--new-window` 参数。
 
-```sh
+```perl
 git config --global core.editor "code --wait --new-window"
 ```
 
 如果想恢复 Vim，使用下面命令即可
 
-```sh
+```perl
 git config --global --unset core.editor
 ```

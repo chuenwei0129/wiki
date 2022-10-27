@@ -6,7 +6,7 @@
 
 使用 `^` 运算符，可以爬上树的一个层次，并更改上下文
 
-```sh
+```perl
 div+div>p>span+em^b
 ```
 
@@ -22,7 +22,7 @@ div+div>p>span+em^b
 
 当然了，`^` 也可以多个并用，有几个 `^` 就返回几层
 
-```sh
+```perl
 div+div>p>span+em^^bq
 ```
 
@@ -44,7 +44,7 @@ div+div>p>span+em^^bq
 
 适用于某个子元素比较复杂的情况
 
-```sh
+```perl
 (div>dl>(dt+dd)*3)+footer>p
 ```
 
@@ -72,7 +72,7 @@ div+div>p>span+em^^bq
 
 可以使用类似 `CSS` 中的符号 `[attr="xxx"]` 向元素添加自定义属性
 
-```sh
+```perl
 div[title="Hello world!" colspan=3]
 ```
 

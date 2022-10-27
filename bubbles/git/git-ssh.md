@@ -10,7 +10,7 @@
 
 执行命令
 
-```sh
+```perl
 ssh-keygen -t rsa -C "example@qq.mail"
 ```
 
@@ -19,7 +19,7 @@ ssh-keygen -t rsa -C "example@qq.mail"
 
 如果执行成功，切换到 `~/.ssh` 目录下，此时目录应该如下所示。
 
-```sh
+```perl
 authorized_keys config id_rsa id_rsa.pub known_hosts
 ```
 
@@ -33,7 +33,7 @@ authorized_keys config id_rsa id_rsa.pub known_hosts
 
 ### 3. 全局配置 Git 的用户名和邮箱
 
-```sh
+```perl
 git config --global user.name "chuenwei0129"
 git config --global user.email "chuenwei0129@gmail.com"
 ```
@@ -46,7 +46,7 @@ git config --global user.email "chuenwei0129@gmail.com"
 
 ### 查看是否有权限
 
-```sh
+```perl
 # -v 详细展示链接过程
 ssh -T git@github.com
 # Hi chuenwei0129! You've successfully authenticated, but GitHub does not provide shell access.
@@ -54,7 +54,7 @@ ssh -T git@github.com
 
 ### 代理问题
 
-```sh
+```perl
 # 这个提示是主要提示是不允许你代理这个 ip 登录 ssh
 kex_exchange_identification: Connection closed by remote host
 Connection closed by 127.0.0.1 port 7890

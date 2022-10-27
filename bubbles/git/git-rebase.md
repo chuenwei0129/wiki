@@ -16,13 +16,13 @@
 
 进入交互式模式的方式是执行：
 
-```sh
+```perl
 git rebase -i <base-commit>
 ```
 
 参数 `base-commit` 就是指明操作的基点提交对象，基于这个基点进行 `rebase` 的操作，对于上述提交历史的例子，我们要把最后的一个提交对象（ 8061e866 ）之前的提交压缩成一次提交，我们需要执行的命令格式是：
 
-```sh
+```perl
 git rebase -i 8061e866
 ```
 
@@ -48,6 +48,6 @@ git rebase -i 8061e866
 
 ## 解决 git rebase 操作后推送远端分支不成功的问题
 
-```sh
+```perl
 git push -f
 ```

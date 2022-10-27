@@ -23,7 +23,7 @@
 
 > **I always see this error if when I create a new Github repository with a README.md, then pull it to a local repository at the first time.**
 
-```sh
+```perl
 git pull origin <branch-name> --allow-unrelated-histories
 ```
 
@@ -33,7 +33,7 @@ git pull origin <branch-name> --allow-unrelated-histories
 
 当使用 Git 版本为 2.27.0 以上时，使用 `git pull` 命令出现以下的警告：
 
-```sh
+```perl
 warning: Pulling without specifying how to reconcile divergent branches is
 discouraged. You can squelch this message by running one of the following
 commands sometime before your next pull:
@@ -50,7 +50,7 @@ invocation.
 
 该警告的中文版本文案描述如下：
 
-```sh
+```perl
 warning: 不建议在没有为偏离分支指定合并策略时执行 pull 操作。
 您可以在执行下一次 pull 操作之前执行下面一条命令来抑制本消息：
 

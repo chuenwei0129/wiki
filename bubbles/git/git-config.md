@@ -4,7 +4,7 @@
 
 ## 对所有本地仓库的用户信息进行配置
 
-```sh
+```perl
 # 对你的 commit 操作设置关联的用户名
 git config --global user.name "chuenwei0129"
 # 对你的commit操作设置关联的邮箱地址
@@ -36,7 +36,7 @@ git config --system --list
 
 2. 修改已创建项目的主分支为 main
 
-    ```sh
+    ```perl
     # 把当前 master 分支改名为 main，其中 -M 的意思是移动或者重命名当前分支
     git branch -M main
     ```
@@ -53,7 +53,7 @@ git config --system --list
 
 它的基本用法是 `git config --global alias.<简化的字符> 原始命令`
 
-```sh
+```perl
 git config --global alias.co checkout
 git config --global alias.ci commit
 git config --global alias.br branch
@@ -65,7 +65,7 @@ git config --global alias.br branch
 
 这些命令其实是更新你全局的 `.gitconfig` 文件，该文件用来保存全局的 git 配置，你可以直接 `code ~/.gitconfig` 手动添加
 
-```sh
+```perl
 [alias]
 st = status -sb
 co = checkout

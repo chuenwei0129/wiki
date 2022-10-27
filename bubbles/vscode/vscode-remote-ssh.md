@@ -12,7 +12,7 @@
 
 在用户主目录下，看看有没有 .ssh 目录，如果有，再看看这个目录下有没有 id_rsa 和 id_rsa.pub 这两个文件，如果已经有了，可直接跳过。如果没有，打开 Shell，创建 SSH Key：
 
-```sh
+```perl
 ssh-keygen -t rsa -C "youremail@example.com"
 ```
 
@@ -27,13 +27,13 @@ ssh-keygen -t rsa -C "youremail@example.com"
 - 这里测试用的服务器地址为：192.168.235.22
 - 用户为：root
 
-```sh
+```perl
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.235.22
 ```
 
 上面这条命令是写到服务器上的 ssh 目录下去了
 
-```sh
+```perl
 cd ~/.ssh
 vim authorized_keys
 ```
@@ -52,7 +52,7 @@ vim authorized_keys
 
 > 配置代码大致如下
 
-```sh
+```perl
 # Read more about SSH config files: https://linux.die.net/man/5/ssh_config
 Host 107 【随便起的名字】
     HostName x.x.xx.com【IP】
@@ -110,7 +110,7 @@ Host 107 【随便起的名字】
 
 #### 执行以下命令，赋予私钥文件仅本人可读权限
 
-```sh
+```perl
 chmod 400 <下载的与云服务器关联的私钥的绝对路径>
 ```
 
@@ -118,7 +118,7 @@ chmod 400 <下载的与云服务器关联的私钥的绝对路径>
 
 执行以下命令，进行远程登录。
 
-```sh
+```perl
 ssh -i <下载的与云服务器关联的私钥的绝对路径> <username>@<hostname or IP address>
 ```
 
@@ -145,7 +145,7 @@ IdentityFile /Users/gakki/.ssh/mac_ssh_ubuntu.cer // 输入 .pem 私钥文件在
 
 示例如下：
 
-```sh
+```perl
 ssh cvm
 ```
 

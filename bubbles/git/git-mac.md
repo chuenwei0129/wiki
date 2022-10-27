@@ -12,14 +12,14 @@ Mac / Windows 环境下 Git 在不设置大小写敏感规则的时候默认大�
 
 可以通过 `git mv` 操作来避免 Git 未识别：
 
-```sh
+```perl
 git mv myfolder tmp
 git mv tmp MyFolder
 ```
 
 也可以修改 `git config` 来达到区分大小写：
 
-```sh
+```perl
 git config core.ignorecase false
 ```
 
@@ -42,7 +42,7 @@ git config core.ignorecase false
 
 通过 `git mv`，在 Git 暂存区中再更改一遍文件大小写解决问题
 
-```sh
+```perl
 git mv test Test
 ```
 
@@ -54,7 +54,7 @@ fatal: renaming 'dir' failed: Invalid argument
 
 使用下边方法法修改：
 
-```sh
+```perl
 git mv dir DirTemp
 git mv DirTemp Dir
 ```

@@ -4,7 +4,7 @@
 
 有时候我们提交完了才发现漏掉了几个文件没有添加，或者提交信息写错了。此时，可以运行带有 `--amend` 选项的提交命令来重新提交：
 
-```sh
+```perl
 git commit --amend
 ```
 
@@ -14,7 +14,7 @@ git commit --amend
 
 例如，你提交后发现忘记了暂存某些需要的修改，可以像下面这样操作：
 
-```sh
+```perl
 git commit -m 'initial commit'
 git add forgotten_file
 git commit --amend

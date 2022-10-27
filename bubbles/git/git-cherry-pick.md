@@ -6,7 +6,7 @@
 
 一次转移多个提交：
 
-```sh
+```perl
 git cherry-pick commit1 commit2
 ```
 
@@ -14,7 +14,7 @@ git cherry-pick commit1 commit2
 
 多个连续的 commit，也可区间复制：
 
-```sh
+```perl
 git cherry-pick commit1^..commit2
 ```
 
