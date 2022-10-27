@@ -12,7 +12,7 @@ Git 默认编辑器应该是 Vim，世界上最好的编辑器 🐶，不过最�
 git config --global core.editor "code --wait"
 ```
 
-执行上面的命令后就可以了。但是每次都是以新建一个 tab 页的方式打开编辑器，如果你希望每次都打开一个新窗口，那么就需要加上 --new-window 参数。
+执行上面的命令后就可以了。但是每次都是以新建一个 tab 页的方式打开编辑器，如果你希望每次都打开一个新窗口，那么就需要加上 `--new-window` 参数。
 
 ```sh
 git config --global core.editor "code --wait --new-window"

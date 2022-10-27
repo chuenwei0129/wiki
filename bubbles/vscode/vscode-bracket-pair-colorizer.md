@@ -23,4 +23,4 @@ VSCode 在最新的 v1.60 版本中原生支持了**高性能**的多层级括�
 },
 ```
 
-> vs code 还专门写了博文说介绍他们内置 `Bracket pair colorization` 功能所做的工作：<https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization>
+> VSCode 还专门写了博文说介绍他们内置 `Bracket pair colorization` 功能所做的工作：<https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization>

@@ -4,9 +4,9 @@
 
 ## 配置
 
-> 笔记库基于 [foam-template-gatsby-kb](https://github.com/hikerpig/foam-template-gatsby-kb) 模版创建，有关更多信息，请查看其 Github 仓库。
+> 笔记库基于 [foam-template-gatsby-kb](https://github.com/hikerpig/foam-template-gatsby-kb) 模版创建，有关更多配置信息，请查看 [gatsby-theme-kb](https://gatsby-project-kb.vercel.app/)。
 
-配置模版中 [_layouts/gatsby-config.js](https://github.com/hikerpig/foam-template-gatsby-kb/blob/master/_layouts/gatsby-config.js) 文件。
+设置模版中 [_layouts/gatsby-config.js](https://github.com/hikerpig/foam-template-gatsby-kb/blob/master/_layouts/gatsby-config.js) 文件。
 
 ```js
 const path = require('path')
@@ -87,3 +87,10 @@ module.exports = {
 操作工作流配置位于 `.github/workflows/Deploy.yml`。
 
 构建完成后，可以访问站点 `https://{yourname}.github.io/{your-repo-name}/`，例如 <https://chuenwei0129.github.io/blog>
+
+<!-- TODO -->
+<!-- ## 自定义
+
+### MDX
+
+### Iframe -->

@@ -21,17 +21,17 @@ VSCode 的界面配色 分为两部分：
 - 工作台配色（Workbench colors），也就是非代码的界面配色
 - 语法配色（Syntax colors），也就是代码配色
 
-这 2 种配色的定制，都是通过修改配置文件 settings.json 来实现的。
+这 2 种配色的定制，都是通过修改配置文件 `settings.json` 来实现的。
 
-**注意：** 有两个 settings.json 文件，user 和 workspace。
+> **注意：** 有两个 `settings.json` 文件，user 和 workspace。
 
 前者是当前用户所有项目的公共配置，后者是当前项目的配置。
 
-建议修改 `当前的项目` 配置，这样不影响其他项目。
+建议修改当前的项目配置，这样不影响其他项目。
 
 ### 工作台定制配色
 
-打开 workspace 的 settings.json 文件，我们可以添加如下的一些配置项：
+打开 workspace 的 `settings.json` 文件，我们可以添加如下的一些配置项：
 
 ```json
 "workbench.colorCustomizations": {
@@ -56,11 +56,11 @@ VSCode 的界面配色 分为两部分：
 },
 ```
 
-所有的配置项，见[官方文档](https://code.visualstudio.com/api/references/theme-color)
+所有的配置项，见 👉 [官方文档](https://code.visualstudio.com/api/references/theme-color)
 
 ### 代码定制配色
 
-点击打开 workspace 的 settings.json 文件，我们可以添加如下的一些配置项：
+点击打开 workspace 的 `settings.json` 文件，我们可以添加如下的一些配置项：
 
 ```json
 "editor.tokenColorCustomizations": {
@@ -132,7 +132,7 @@ VSCode 的界面配色 分为两部分：
 }
 ```
 
-配置方法目前支持：
+**配置方法目前支持：**
 
 - 直接写配置（simple mode）
 
@@ -152,9 +152,9 @@ VSCode 的界面配色 分为两部分：
 
   指定的 `scope` 越小，优先级越高。
 
-配色的配置目前支持两项：
+**配色的配置目前支持两项：**
 
 - foreground 颜色
 - fontStyle 字体
 
-详细的说明，见[官方文档](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+详细的说明，见 👉 [官方文档](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)

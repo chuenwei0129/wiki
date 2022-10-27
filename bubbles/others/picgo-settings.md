@@ -50,8 +50,4 @@
 
 ## vs-picgo 配置
 
-我的配置如图：
-
-![SCR-20221024-kwi](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/ts/SCR-20221024-kwi.png)
-
-有关更多信息，请查看 [vs-picgo](https://github.com/PicGo/vs-picgo) 扩展页面。
+[[vscode-picgo]]

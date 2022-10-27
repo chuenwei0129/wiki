@@ -30,4 +30,4 @@ git branch -M main
 
 ## 配置 Git 的默认编辑器为 VSCode
 
-> [[configure-git-default-editor-to-be-vscode]]
+> [[vscode-git-default-editor]]
