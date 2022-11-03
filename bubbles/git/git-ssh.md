@@ -63,3 +63,16 @@ Connection closed by 127.0.0.1 port 7890
 解决方案就是用 Github 的 443 端口 <https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port> 或者把代理关了
 
 更多讨论：[ssh远程登陆有时候正常，有时候显示：ssh_exchange_identification: Connection closed by remote host，这是什么原因？](https://www.zhihu.com/question/20023544)
+
+## [升级 Ventura 后 git ssh 似乎出了问题](https://www.v2ex.com/t/890332#reply17)
+
+**原因：** 苹果系统升级后默认禁用了**用 SHA-1 的哈希算法的 RSA 签名**，因为被破解了所以不安全。
+
+**解决方案：** 在 `~/.ssh/config` 文件中添加如下内容
+
+```perl
+HostKeyAlgorithms +ssh-rsa
+PubkeyAcceptedKeyTypes +ssh-rsa
+```
+
+另外：建议直接换 ed25519 算法，因为它更安全。

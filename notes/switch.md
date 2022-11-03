@@ -36,9 +36,9 @@ TX 拥抱大气层，使用 Mac 更新固件到 13.2.1 时，遇到报错
 如果你平常是用 PC 来管理 SD 卡中的内容，而当你某次把 SD 卡插入 Mac 中，再插回 NS 中，往往就会报错无法开机。其原因主要和 Archive Bit 有关。
 
 ```perl
-Some of you have noticed, that thinks like Homebrew-Launcher and LayeredFS-Injects aren’t working as expected when using MacOS for SD-Card-Management.
+Some of you have noticed, that thinks like Homebrew-Launcher and LayeredFS-Injects aren’t working as expected when using macOS for SD-Card-Management.
 
-The problem is, MacOS is setting an “archive flag” on every sd-card mounted and the switch won’t read that folders.
+The problem is, macOS is setting an “archive flag” on every sd-card mounted and the switch won’t read that folders.
 ```
 
 **步骤一**、删除 macOS 产生的垃圾

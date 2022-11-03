@@ -12,7 +12,7 @@
 
 - [[vscode]]
 - [[git]]
-- [[macos]]
+- [[mac]]
 - [[windows]]
 - [[shortcuts]]
 - [[terminal]]
