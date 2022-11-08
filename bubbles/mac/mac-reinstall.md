@@ -4,7 +4,7 @@
 
 m1 芯片的 Mac 进入恢复模式很简单，就是先关机，然后长按电源键一直按住不动，直到出现图中这个 `⚙️` 的图标就算进入恢复模式了。
 
-![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/macOS01.png)
+![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/macos01.png)
 
 选择“选项”，然后点按“继续”。
 
@@ -14,7 +14,7 @@ m1 芯片的 Mac 进入恢复模式很简单，就是先关机，然后长按电
 
 接下来会提示 Mac 需要激活，所以必须连接网线或者 WiFi，这个界面没有出现 WiFi 的选项，实际在右上角，点击图标后就可以选择 WiFi，连接成功后点击下一步。Mac 会自动转圈显示激活成功。
 
-![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/macOS02.jpg)
+![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/macos02.jpg)
 
 然后在这个界面会弹出熟悉的几个选项，这里**先不要点击第二个重新安装 macOS**。
 
