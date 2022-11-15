@@ -1,10 +1,8 @@
 # VSCode 因为插件丰富、功能强大被大家喜欢，真是令人烦恼啊？
 
-> 这条笔记更新于: 2022 年 10 月 24 日，星期一，19: 03。
-
 ## 🎨 主题
 
-我最常用的 VSCode 主题是 [Vitesse](https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse)，目前正在使用。
+我最常用的 VSCode 主题是 [Vitesse](https://marketplace.visualstudio.com/items?itemName=antfu.theme-vitesse)，且目前正在使用。
 
 ![20221024174334](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/ts/20221024174334.png)
 
