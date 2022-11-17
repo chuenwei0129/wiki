@@ -1,3 +1,7 @@
+---
+private: true
+---
+
 # M1 芯片 Mac 重装系统
 
 ## 1. 给 Mac 硬件做健康检查（可选）
@@ -8,13 +12,13 @@
 
 M1 芯片的 Mac 进入恢复模式很简单，就是先关机，然后长按电源键一直按住不动，直到出现图中这个 ⚙️ 的图标就算进入恢复模式了。
 
-![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/macos01.png)
-
 选择“选项”，然后点按“继续”。
 
-如果是已有用户的话，应该会弹出用户图标以及输入密码登录界面，要求输入这个用户的管理员密码，请照做。
+![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/macos01.png)
 
-如果系统要求输入之前在这台 Mac 上使用过的 Apple ID 和密码，请照做。
+  1. 如果是已有用户的话，应该会弹出用户图标以及输入密码登录界面，要求输入这个用户的管理员密码，请照做。
+
+  2. 如果系统要求输入之前在这台 Mac 上使用过的 Apple ID 和密码，请照做。
 
 接下来会提示 Mac 需要激活，所以必须连接网线或者 WiFi，这个界面没有出现 WiFi 的选项，实际在右上角，点击图标后就可以选择 WiFi，连接成功后点击下一步。Mac 会自动转圈显示激活成功。
 
@@ -24,7 +28,7 @@ M1 芯片的 Mac 进入恢复模式很简单，就是先关机，然后长按电
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/mac08.jpg)
 
-**点击左上角的实用工具-终端**。
+**先点击左上角的实用工具-终端**。
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/mac11.jpg)
 
@@ -32,7 +36,7 @@ M1 芯片的 Mac 进入恢复模式很简单，就是先关机，然后长按电
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/mac09.jpg)
 
-**在弹出的重设密码界面，不管显示啥不用去管**，直接点击左上角的恢复助理-抹掉 Mac...
+**在弹出的重设密码界面，不管显示啥不用去管**，直接点击左上角的恢复助理 ➡️ 抹掉 Mac...
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/mac14.jpg)
 
