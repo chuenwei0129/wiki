@@ -1,6 +1,7 @@
 # 最傻逼的用户，被 macOS 百般折磨后，努力至今终尝回报，突然得到了最强使用技巧
 
-- M1 芯片 Mac 重装系统 🫱 [[reinstall-macos]]
+- 0️⃣ [[reinstall-macos]]：M1 芯片 Mac 重装系统
+- 1️⃣ [[git-cheatsheet]]：Git 常用命令备忘录
 
 ## macOS 中“安全性与隐私”没有允许任何来源
 
