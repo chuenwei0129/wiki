@@ -1,7 +1,5 @@
 # 越过长城，走向世界
 
-> 这条笔记创建于: 2022 年 10 月 28 日，星期五，15: 23。
-
 ## 🐱 Clash
 
 - [Clash](https://github.com/Dreamacro/clash)：一个 Go 语言开发的多平台代理客户端
@@ -11,18 +9,11 @@
 ## ✈️ 机场
 
 - **正在使用：** [🏆 Flyint 飞数](https://www.flyint.cc/)
+- **一元备用：** [🌍 XFLTD 养鸡场](https://xfltd.org/)
 - **免费机场：** [免费节点及订阅地址](https://github.com/Pawdroid/Free-servers)
 - **寻找机场：** [DuyaoSS - 机场测速和简介](https://www.duyaoss.com/archives/3/)
 
-## 📟 Terminal
-
-### Socks5 代理协议
-
-1. Socks5 是一个代理协议，它在使用 TCP/IP 协议通讯的前端机器和服务器机器之间扮演一个中介角色，使得内部网中的前端机器变得能够访问 Internet 网中的服务器，或者使通讯更加安全。
-
-2. Socks5 代理工作在会话层，不要求应用程序遵循特定的操作系统平台，Socks5 代理只是简单地传递数据包，而不必关心是何种应用协议（比如 FTP、HTTP 和 NNTP 请求）。
-
-3. Socks5 包含 https，https 又包含 http，Socks5 代理工作在 osi 七层模型中的会话层（第五层），https/http 代理工作在 osi 七层模型的应用层（第七层），所以说 Socks 代理更加底层。
+## 💻 Terminal
 
 ### 配置终端代理
 
@@ -43,12 +34,12 @@ function po() {
     export http_proxy=http://127.0.0.1:7890
     export https_proxy=$http_proxy
     export all_proxy=socks5://127.0.0.1:7890
-    echo -e "终端代理已开启。"
+    echo -e "终端代理已开启!"
 }
 
 function pf(){
     unset http_proxy https_proxy all_proxy
-    echo -e "终端代理已关闭。"
+    echo -e "终端代理已关闭!"
 }
 ```
 
@@ -56,11 +47,11 @@ function pf(){
 
 接下来需要把脚本写入 `.zshrc`，`source ~/.zshrc` 就可以永久生效。
 
-可以执行 `curl ipinfo.io` 查看代理 ip，`curl cip.cc` 查看本机 ip。
+可以执行 `curl ipinfo.io` 查看代理 ip。
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/ip.png)
 
-### 其他代理设置（补充）
+### 其他代理设置
 
 #### git
 
@@ -96,7 +87,15 @@ npm config delete proxy
 npm config delete https-proxy
 ```
 
-### 一些问题
+#### 拓展：Socks5 代理协议
+
+1. Socks5 是一个代理协议，它在使用 TCP/IP 协议通讯的前端机器和服务器机器之间扮演一个中介角色，使得内部网中的前端机器变得能够访问 Internet 网中的服务器，或者使通讯更加安全。
+
+2. Socks5 代理工作在会话层，不要求应用程序遵循特定的操作系统平台，Socks5 代理只是简单地传递数据包，而不必关心是何种应用协议（比如 FTP、HTTP 和 NNTP 请求）。
+
+3. Socks5 包含 https，https 又包含 http，Socks5 代理工作在 osi 七层模型中的会话层（第五层），https/http 代理工作在 osi 七层模型的应用层（第七层），所以说 Socks 代理更加底层。
+
+## ❓ 一些问题
 
 Arc 浏览器在注册的时候遇到 「Unknown server error」 的错误
 
@@ -106,8 +105,10 @@ Arc 浏览器在注册的时候遇到 「Unknown server error」 的错误
 
 **解决办法：**
 
+![20221117135416](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/20221117135416.png)
+
 ```perl
-# 终端 po 打开代理
+# 终端打开代理
 # 命令行运行 warp
 /Applications/Warp.app/Contents/macOS/stable
 ```

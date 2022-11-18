@@ -1,16 +1,14 @@
-# Homebrew 包管理工具
-
-> 这条笔记创建于: 2022 年 10 月 28 日，星期五，15: 35。
+# Homebrew 包管理
 
 ## 安装 Homebrew
 
 ### 安装 ARM 版 Homebrew
 
-`ARM` 版 `Homebrew` 需要安装在 `/opt/homebrew` 路径下，早期的时候需要手动创建目录执行命令，目前使用 [🍺官网](https://brew.sh/index_zh-cn) 最新脚本不需要手动操作。
+`ARM` 版 `Homebrew` 需要安装在 `/opt/homebrew` 路径下，**早期的时候需要手动创建目录执行命令，目前使用 [🍺官网](https://brew.sh/index_zh-cn) 最新脚本不需要手动操作。**
 
 直接执行：
 
-```sh
+```perl
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -18,24 +16,13 @@
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/mac/homebrew.png)
 
-### 跑题：为什么 ARM 版 Mac 要使用 /opt 路径？
-
-根据《文件系统层次结构标准》（Filesystem Hierarchy Standard，主要为 Linux 系统制定，但对具有共同 UNIX 基因的 macOS 也有参考价值）：
-
-- `/usr/local` 目录用于系统管理员在本地安装软件。系统软件更新时，该目录应免于被覆盖。
-- `/opt` 目录留作附加应用程序（add-on application）软件包的安装。安装在该目录下的软件包必须将其静态文件放置在单独的 `/opt/<package>` 或 `/opt/<provider>` 路径下。
-
-历史上，`/usr/local` 主要用于放置在本地编译并另行安装的程序，避免和 `/usr` 下的系统自带版本冲突；而 `/opt` 则用于安装非系统自带的、第三方预先编译并发行的独立软件包。
-
-**显然，在如今的 macOS 使用场景下，用户很少会需要自行编译软件包，`/usr/local` 和 `/opt` 的区分一定程度上已经成为名义上的了。Homebrew 启用 `/opt` 作为 ARM 版的安装路径，可能更多是出于确保与 `X86` 版相互区隔的考虑**
-
 ### 安装 X86 版 Homebrew (可选)
 
 因为目前很多软件包没有支持 `ARM` 架构，我们也可以考虑使用 `x86` 版的 `Homebrew`。
 
 在命令前面添加 `arch -x86_64`，就可以按 X86 模式执行该命令，比如：
 
-```sh
+```perl
 arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -61,15 +48,28 @@ alias ibrew='arch -x86_64 /usr/local/bin/brew' # X86 Homebrew
 对于命令行（CLI）程序：可以优先尝试使用 ARM 版 Homebrew 安装，保证获得针对新架构编译的版本，实现最佳的运行效果。但注意：
 
 1. 有的软件包已经兼容新架构、但还没有发布相应的编译版，需要安装的过程中在本地编译，耗时会相对很长；
-2. 如果软件包还没有兼容新架构，使用 ARM 版 Homebrew 安装会报错，此时可以换用 X86 版 Homebrew 安装。另外，值得一提的是，现在的 Homebrew 已再不需要额外使用 `--cask` 参数安装 Cask 程序，所以直接使用 `brew install maccy` 就好了。
+2. 如果软件包还没有兼容新架构，使用 ARM 版 Homebrew 安装会报错，此时可以换用 X86 版 Homebrew 安装。另外，值得一提的是，现在的 Homebrew 已再不需要额外使用 `--cask` 参数安装 Cask 程序，所以直接使用 `brew install <app>` 就好了。
 3. 对于图形界面（GUI）程序，即通过 Homebrew Cask 安装的 .app 程序：对于这类软件，Homebrew 起的作用只是从官方渠道下载这些软件的安装包，然后安装到 `/Applications` 路径（及执行安装脚本，如果有）。因此无论其是否针对新架构优化，通过任一版本 Homebrew 都可以安装。考虑到日后维护方便，建议直接用 ARM 版 Homebrew 安装即可。
 
-> **No.1 的小秘籍**
+> ✨ **No.1 的小秘籍**
 
 安装 homebrew 过程遇到解决不了的问题，先删除 `homebrew` 目录再重新运行脚本安装。
 
 - x86 上安装目录： `/usr/local/Homebrew/`
 - arm 上安装目录： `/opt/homebrew`
+
+### 🚀 跑题：为什么 ARM 版 Mac 要使用 /opt 路径？
+
+根据《文件系统层次结构标准》（Filesystem Hierarchy Standard，主要为 Linux 系统制定，但对具有共同 UNIX 基因的 macOS 也有参考价值）：
+
+- `/usr/local` 目录用于系统管理员在本地安装软件。系统软件更新时，该目录应免于被覆盖。
+- `/opt` 目录留作附加应用程序（add-on application）软件包的安装。安装在该目录下的软件包必须将其静态文件放置在单独的 `/opt/<package>` 或 `/opt/<provider>` 路径下。
+
+历史上，`/usr/local` 主要用于放置在本地编译并另行安装的程序，避免和 `/usr` 下的系统自带版本冲突；而 `/opt` 则用于安装非系统自带的、第三方预先编译并发行的独立软件包。
+
+**显然，在如今的 macOS 使用场景下，用户很少会需要自行编译软件包，`/usr/local` 和 `/opt` 的区分一定程度上已经成为名义上的了。Homebrew 启用 `/opt` 作为 ARM 版的安装路径，可能更多是出于确保与 `X86` 版相互区隔的考虑**
+
+参考：[在 M1 芯片 Mac 上使用 Homebrew](https://sspai.com/post/63935)
 
 ## Homebrew 的几个核心概念
 
@@ -208,4 +208,4 @@ rm ~/Library/Caches/Homebrew/downloads/*.incomplete
 > 必须是存在这个 cask formula 才能通过 force 卸载；而且 zap 是写在 formula 里的。
 > ⚠️ May remove files which are shared between applications.
 
-具体讨论：[Mac Os 各位同学都用什么卸载软件？或者有什么好的卸载软件推荐？](https://v2ex.com/t/834735)
+具体讨论：[macOS 各位同学都用什么卸载软件？或者有什么好的卸载软件推荐？](https://v2ex.com/t/834735)
