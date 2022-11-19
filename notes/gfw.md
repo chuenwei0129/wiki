@@ -19,7 +19,7 @@
 
 通过设置 http_proxy、https_proxy、all_proxy，可以让终端走指定的代理。
 
-```sh
+```perl
 export http_proxy=http://127.0.0.1:7890
 export https_proxy=http://127.0.0.1:7890
 export all_proxy=socks5://127.0.0.1:7890
@@ -68,7 +68,7 @@ git config --global --unset https.proxy
 
 打开 `~/.ssh/config`，如果没有这个文件，自己手动创建。
 
-```sh
+```perl
 # 全局
 # ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p
 # 只为特定域名设定
@@ -78,7 +78,7 @@ Host github.com
 
 #### npm
 
-```sh
+```perl
 # 设置
 npm config set proxy http://127.0.0.1:7890
 npm config set https-proxy http://127.0.0.1:7890
